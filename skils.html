@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+        <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NWVQM30QHQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NWVQM30QHQ');
+</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, C#, python, Nurullah, Nurullah Akbolat">
+    <meta name="description" content="Portfolyo Site">
+    <meta name="author" content="Nurullah Akbolat">
+    <title>Yeteneklerim</title>
+    <link rel="stylesheet" href="css/skils.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+<style>
+    /*** Mobil Site Uyarısı İçin CSS ***/
+            .container-mobil{
+                display: none;
+            }
+            .footer-mobil{
+              display: none;
+            }
+    @media screen and (min-width:150px) and (max-width:1350px){
+        body {
+            background: #00091B;
+            color: #fff;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+          }
+          .container-mobil{
+            display: block;
+            position: relative;
+          }
+          .container{
+            display: none;
+          }
+          @keyframes fadeIn {
+            from {top: 20%; opacity: 0;}
+            to {top: 100; opacity: 1;}
+            
+          }
+          
+          @-webkit-keyframes fadeIn {
+            from {top: 20%; opacity: 0;}
+            to {top: 100; opacity: 1;}
+            
+          }
+          
+          .container-mobil {
+            width: 85%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+            animation: fadeIn 1000ms ease;
+            -webkit-animation: fadeIn 1000ms ease;
+          }
+          
+          h1 {
+            font-size: 50px;
+            font-family: 'Poppins', sans-serif;
+            margin-bottom: 40px;
+            line-height: 1;
+            font-weight: 700;
+            line-height: 60px;
+          }
+          
+          .dot {
+            color: #4FEBFE;
+          }
+          
+          .icons {
+            text-align: center;
+            
+          }
+          
+          .icons i {
+            color: #00091B;
+            background: #fff;
+            height: 53px;
+            width: 53px;
+            padding: 13px;
+            margin: 0 10px;
+            border-radius: 50px;
+            border: 2px solid #fff;
+            transition: all 200ms ease;
+            text-decoration: none;
+            position: relative;
+            font-size: 25px;
+          }
+          
+          .icons i:hover, .icons i:active {
+            color: #fff;
+            background: none;
+            cursor: pointer !important;
+            transform: scale(1.2);
+            -webkit-transform: scale(1.2);
+            text-decoration: none;
+            
+          }
+          .footer-mobil{
+            display: block;
+            width: 100%;
+            height: 35px;
+            position: absolute;
+            bottom: 0%;
+          }
+          .footer-mobil p{
+            text-align: center;
+            font-size: 18px;
+          }
+          .footer-mobil p a{
+            text-decoration: none;
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+            opacity: 0.5;
+          }
+          .footer-mobil p a:hover{
+            opacity: 1;
+          }
+        }
+    /*** Mobil Site Uyarısı İçin CSS ***/
+        </style>
+</head>
+<body>  
+<div class="container-mobil">
+    <h1>Sitemizde Henüz Mobil ve Tablet Ekranları İçin Uyumluluk Yoktur<span class="dot">!</span></h1>
+    <div class="icons">
+    <a href="https://twitter.com/lnurullahakb"><i class="fa-brands fa-x-twitter"></i></a>
+    <a href="https://www.linkedin.com/in/nurullah-akbolat-b1465b263/"><i class="fa-brands fa-linkedin-in"></i></a>
+    <a href="https://github.com/lnurullahakb"><i class="fa-brands fa-github"></i></a>
+    </div>
+</div>
+<div class="footer-mobil">
+ <p><a href="mailto:nurullahakb@outlook.com">© Nurullah Akbolat</a></p>
+</div>
+<div class="genel">
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Anasayfa</a></li>
+            <li><a href="skils.html">Yeteneklerim</a></li>
+            <li><a href="about-us.html">Hakkımda</a></li>
+            <li><a href="contact.html">Bana Ulaşın!</a></li>
+        </ul>
+    </div>
+    <div class="social">
+        <ul>
+            <li><a href="https://www.instagram.com/lnurullahakb"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://twitter.com/lnurullahakb"><i class="fa-brands fa-x-twitter"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/nurullah-akbolat-b1465b263/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            <li><a href="https://github.com/lnurullahakb"><i class="fa-brands fa-github"></i></a></li>
+            <li><a href="mailto:nurullahakb@outlook.com"><i class="fa-solid fa-share"></i></a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <div class="bar learning" data-skill="HTML5"></div>
+        <div class="bar2 bar learning" data-skill="CSS3"></div>
+        <div class="bar back basic" data-skill="Javascript"></div>
+        <div class="bar bar3 back intermediate" data-skill="C#"></div>
+        <div class="bar front advanced" data-skill="Python"></div>
+        <div class="bar bar4 front expert" data-skill="SQL"></div>
+    
+      </div>
+</div>
+</body>
+</html>
