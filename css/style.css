@@ -90,7 +90,7 @@ body{
     right: 0%;
     bottom: 36%;
     animation-name: socailanimate;
-    -webkit-animation: socailanimate 1000ms ease;
+    animation-duration: 0.4s;
 }
 .social ul{
     list-style-type: none;
