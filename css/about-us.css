@@ -93,6 +93,8 @@ body{
   background: transparent;
   backdrop-filter: blur(10px);
   border-radius: 60px;
+  animation: aboutus 1000ms ease;
+  -webkit-animation: aboutus 1000ms ease;
 }
 .text{
   width: 540px;
@@ -138,10 +140,15 @@ span{
 .hire:hover{
   background: #000;
 }
-.mobil{
-  color: red;
-  text-align: center;
-  display: none;
+@keyframes aboutus {
+  from {top: 20%; opacity: 0;}
+  to {top: 100; opacity: 1;}
+  
+}
+
+@-webkit-keyframes aboutus {
+  from {top: 20%; opacity: 0;}
+  to {top: 100; opacity: 1;}
 }
 @media screen and (min-width:150px) and (max-width:1350px){
   body{
