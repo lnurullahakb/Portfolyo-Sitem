@@ -108,11 +108,6 @@ body{
 .social ul li a:hover{
     opacity: 1;
 }   
-.mobil{
-    color: red;
-    text-align: center;
-    display: none;
-}
 @keyframes fadeIn {
     from {top: 20%; opacity: 0;}
     to {top: 100; opacity: 1;}
